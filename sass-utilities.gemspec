@@ -10,9 +10,9 @@ Gem::Specification.new do |s|
   # Replace "extension" with the name of your extension
   s.name = "sass-utilities"
   # Description of your extension
-  s.description = %q{Various Sass script utility functions includes tests for existence and variable interpolation}
+  s.description = %q{Various Sass script utility functions. Includes tests for existence and variable interpolation}
   # A summary of your Compass extension. Should be different than Description
-  s.summary = %q{Various Sass script utility functions includes tests for existence and variable interpolation}
+  s.summary = %q{Various Sass script utility functions. Includes tests for existence and variable interpolation. Hopefully things that can be in the future done in Sass or added to Compass}
   # The names of the author(s) of the extension.
   # If more than one author, comma separate inside of the brackets
   s.authors = ["Edward O'Riordan"]
@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   # If more than one author, comma separate inside of the brackets
   s.email = ["hello@edwardoriordan.com"]
   # URL of the extension
-  # s.homepage = "http://extension.com"
+  s.homepage = "https://github.com/edwardoriordan/sass-utilities"
 
   # Gem Files
   # These are the files to be included in your Compass extension.
