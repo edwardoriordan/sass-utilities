@@ -1,0 +1,28 @@
+$does-exist-string: 'red';
+$does-exist-bol: false;
+
+@mixin mixing-does-exist {
+  -test: 'I do exist';
+}
+
+@function function-does-exist() {
+  @return 'does-exist'
+}
+
+
+
+body {
+  -test: interpolate_border_radius();
+
+  -variable-does-exist: variable_exists(does-exist-bol);
+  -variable-doesnt-exist: variable_exists(does-exist-string);
+
+  -variable-does-exist: variable_exists(doesnt-exist-bol);
+  -variable-doesnt-exist: variable_exists(doesnt-exist-string);
+
+  -mixin-does-exist: mixin_exists(mixing-does-exist);
+  -mixin-doesnt-exist: mixin_exists(mixing-doesnt-exist);
+
+  -function-does-exist: function_exists(function-does-exist);
+  -function-doesnt-exist: function_exists(function-doesnt-exist);
+}

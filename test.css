@@ -1,0 +1,12 @@
+/* line 14, test.scss */
+body {
+  -test: interpolate_border_radius();
+  -variable-does-exist: true;
+  -variable-doesnt-exist: true;
+  -variable-does-exist: false;
+  -variable-doesnt-exist: false;
+  -mixin-does-exist: true;
+  -mixin-doesnt-exist: false;
+  -function-does-exist: true;
+  -function-doesnt-exist: false;
+}
