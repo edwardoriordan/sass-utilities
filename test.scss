@@ -12,7 +12,7 @@ $does-exist-bol: false;
 
 
 body {
-  -test: interpolate_border_radius();
+  color: interpolate_variable(does-exist-string);
 
   -variable-does-exist: variable_exists(does-exist-bol);
   -variable-doesnt-exist: variable_exists(does-exist-string);
