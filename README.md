@@ -8,21 +8,21 @@ Compass plugin with various Sass script utility functions. Includes
 
 ## Installation
 
-Make sure you have Compass and *Sass 3.3* or greater installed. Sass 3.3 is currently in alpha. To instal the alpha version
+Make sure you have Compass and *Sass 3.3* or greater installed. *Sass 3.3 is currently in alpha*. To instal the alpha version
 
-```gem install sass --pre```
+```sass gem install sass --pre```
 
 To install Sass Utilities
 
-```gem install modular-scale```
+```sass gem install modular-scale```
 
-Require Compass and Singularity into your Compass config.rb
+Require Sass Utilities into your Compass config.rb
 
-``` require 'sass-utilities' ```
+```sass require 'sass-utilities' ```
 
 Import the file into your stylesheets
 
-```@import 'sass-utilities';```
+```sass @import 'sass-utilities';```
 
 ## Functions
 
