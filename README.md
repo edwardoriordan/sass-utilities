@@ -59,6 +59,7 @@ function-exists(function-doesnt-exist); // returns false
 $color: red;
 $fs: 3rem;
 
+// note that you pass in color, not $color
 color: interpolate-variable(color);
 font-size: interpolate-variable(fs);
 
