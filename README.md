@@ -33,22 +33,22 @@ Import the file into your stylesheets
 $does-exist-var: 'myVar';
 
 // note that you pass in does-exist-var, not $does-exist-var
-variable_exists(does-exist-var); // returns true
-variable_exists(doesnt-exist-var); // returns false
+variable-exists(does-exist-var); // returns true
+variable-exists(doesnt-exist-var); // returns false
 
 @mixin mixing-does-exist {
   -test: 'I do exist';
 }
 
-mixin_exists(mixing-does-exist); // returns true
-mixin_exists(mixing-doesnt-exist); // returns false
+mixin-exists(mixing-does-exist); // returns true
+mixin-exists(mixing-doesnt-exist); // returns false
 
 @function function-does-exist() {
   @return 'does-exist'
 }
 
-function_exists(function-does-exist); // returns true
-function_exists(function-doesnt-exist); // returns false
+function-exists(function-does-exist); // returns true
+function-exists(function-doesnt-exist); // returns false
 
 ```
 
@@ -59,8 +59,8 @@ function_exists(function-doesnt-exist); // returns false
 $color: red;
 $fs: 3rem;
 
-color: interpolate_variable(color);
-font-size: interpolate_variable(fs);
+color: interpolate-variable(color);
+font-size: interpolate-variable(fs);
 
 ```
 
