@@ -20,9 +20,7 @@ Require Sass Utilities into your Compass config.rb
 
 ```sass require 'sass-utilities' ```
 
-Import the file into your stylesheets
-
-```sass @import 'sass-utilities';```
+**Don't** import the file into your stylesheets. Sass utilities has no .sass or .scss files. If you try to import you will get an error.
 
 ## Functions
 
