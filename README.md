@@ -3,7 +3,7 @@ Sass Utilities
 
 Compass plugin with various Sass script utility functions. Includes 
 
-* Functions to test if a variable, mixing and function exists
+* Functions to test if a variable, mixing and function exists (these now exist in Sass 3.3 - https://github.com/nex3/sass/pull/821)
 * Variable interpolation
 
 ## Installation
