@@ -14,7 +14,7 @@ Make sure you have Compass and *Sass 3.3* or greater installed. *Sass 3.3 is cur
 
 To install Sass Utilities
 
-```sass gem install modular-scale```
+```sass gem install sass-utilities```
 
 Require Sass Utilities into your Compass config.rb
 
@@ -70,7 +70,7 @@ font-size: 3rem;
 
 ```
 
-This is obviously a silly example. Interpolation can be very useful in other contexts. We might be getting a maps data type in sass (https://github.com/nex3/sass/issues/642) which will mean that some of this functionality may not be necessary. There might still be situtation in which is is desirable (especially as the interpolate funtion doesn't throw an error if the variable doesn't exist, it justs returns false).
+There will be maps data type in Sass (https://github.com/nex3/sass/issues/642) which will mean that some of this functionality may not be necessary. There might still be situtations in which it is desirable (especially as the interpolate funtion doesn't throw an error if the variable doesn't exist, it just returns false).
 
 ## Coming (maybe!)
 
